@@ -24,8 +24,7 @@ add_executable(${OUTPUT_FILENAME} ${PROJECT_SOURCES})
 target_include_directories(${OUTPUT_FILENAME}
     PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/includes
-        ${CMAKE_CURRENT_SOURCE_DIR}/lang
-        ${CMAKE_CURRENT_SOURCE_DIR}/config
+        ${CMAKE_CURRENT_SOURCE_DIR}/bin
 )
 
 find_package(SFML 2.5 REQUIRED
